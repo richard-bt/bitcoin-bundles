@@ -1,0 +1,75 @@
+.interaction {margin-top:10px !important;}
+.headrow {height:40px !important; padding-top:4px;}
+
+
+.titleblock h1 {margin-top:45px !important; ;font-size:45px !important;}
+.titleblock h2 {font-size:14px !important; line-height:24px !important; margin-bottom:20px;}
+
+.interaction h3 {font-size:18px !important;}
+.container {height:1000px !important;}
+
+.submit_cta {min-height:60px !important; font-size:20px !important; padding-top: 4px !important;}
+.field_text {min-height:60px !important; font-size:20px !important; padding-top: 4px !important;}
+
+
+.basic p {line-height:24px !important;}
+.locked p {line-height:24px !important;}
+
+
+.icon-16 {background-position:0 4px;}
+
+
+.secondary_cta {min-height:56px !important; font-size:20px !important; padding-top: 10px !important;}
+a.secondary_cta:link {min-height:56px !important; font-size:20px !important; padding-top: 10px !important;}
+a.secondary_cta:visited {min-height:56px !important; font-size:20px !important; padding-top: 10px !important}
+a.secondary_cta:hover {min-height:56px !important; font-size:20px !important; padding-top: 10px !important;}
+a.secondary_cta:active {min-height:56px !important; font-size:20px !important; padding-top: 10px !important;}
+
+
+.icon-key {background-image:url(../img/ui_icon_key_24px.png) !important;}
+.icon-unlock {background-image:url(../img/ui_icon_unlock_24px.png) !important;}
+
+.icon-play {background-position:top 14px left 10px !important;}
+.icon-arrow {background-position: left 20px top 313px !important;}
+
+/*.artist_info_wrap {position:absolute; width:100%; height:100%; z-index:77777;}*/
+.artist_info {position:absolute; right:-300px; padding:120px 30px 50px 30px; height:100%; width:300px; background-image:url(../img/ui_trans_80_black.png);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	}
+.artist_info_open {right:0;   
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	}
+.info_controls_pixies { margin-left:-74px; margin-top: -120px; position:relative; cursor:pointer; display:block;height:44px; width:44px; background-image:url(../img/plus-grey.png); text-indent:-9999px;  }
+.info_controls {margin-left:-74px; margin-top: -120px; position:relative; cursor:pointer; display:block;height:50px; width:44px; background-image:url(../img/ui_more_control_more.png); text-indent:-9999px; }
+.info_controls_closed {background-image:url(../img/ui_more_control_less.png) !important;}
+.info_controls_closed_pixies {background-image:url(../img/minus-grey.png) !important;}
+
+
+.artist_info p {color:#fff; font-size:13px; font-weight:normal; line-height:24px; margin-bottom:10px; }
+.artist_info h3 {font-family:"Oswald", Helvetica, sans-serif; color:#fff; margin-bottom:10px; text-transform:uppercase;}
+.artist_info h3 .source {color:#666; font-size:11px; font-weight:normal; line-height:24px; margin-bottom:10px; text-transform:none;font-family:"Helvetica", Arial, sans-serif; }
+.artist_info ul {color: #FFFFFF;font-size: 15px;font-weight: bold;line-height: 24px;margin-bottom: 10px;}
+.artist_info li {color: #FFFFFF;font-size: 11.5px;font-weight: normal;line-height: 24px;list-style: none outside none;}
+
+.icon-play {background-position:14px 14px !important;}
+.icon-arrow {background-position: 313px 20px !important;}
+
+.inline_help {float:right; right:4px; margin-top:-23px; margin-right:18px; }
+.icon-biglock {margin-top:-50px !important; margin-right:34px !important;}
+
+
+
+/* RESPONSIVE
+----------------------------------------*/
+@media screen and (min-width: 500px) {
+
+.field-icon-16 {background-position: 380px 16px !important; background-repeat:no-repeat;}
+.submit-icon-16 {background-position:150px 18px !important; background-repeat:no-repeat;}
+
+}
